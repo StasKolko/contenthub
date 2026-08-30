@@ -1,0 +1,83 @@
+# ─── Baseline normalization ─────────────────────────────
+* text=auto eol=lf
+
+# ─── Force CRLF ─────────────────────────────────────────
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+*.ps1           text eol=crlf
+*.sln           text eol=crlf
+
+# ─── Force LF ───────────────────────────────────────────
+*.sh            text eol=lf
+*.bash          text eol=lf
+*.zsh           text eol=lf
+*.mk            text eol=lf
+Dockerfile      text eol=lf
+Makefile        text eol=lf
+
+# ─── Never touch ────────────────────────────────────────
+*.patch         -text
+*.diff          -text
+
+# ─── Lockfiles ──────────────────────────────────────────
+bun.lock        text eol=lf
+
+# ─── Binary ─────────────────────────────────────────────
+
+# Images
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.webp          binary
+*.avif          binary
+*.bmp           binary
+*.tif           binary
+*.tiff          binary
+*.ico           binary
+*.icns          binary
+*.psd           binary
+*.ai            binary
+
+# Fonts
+*.woff          binary
+*.woff2         binary
+*.ttf           binary
+*.otf           binary
+*.eot           binary
+
+# Video
+*.mp4           binary
+*.webm          binary
+*.mov           binary
+*.avi           binary
+*.mkv           binary
+
+# Audio
+*.mp3           binary
+*.wav           binary
+*.ogg           binary
+*.flac          binary
+*.m4a           binary
+
+# Archives
+*.zip           binary
+*.gz            binary
+*.tgz           binary
+*.bz2           binary
+*.7z            binary
+*.rar           binary
+*.xz            binary
+
+# Documents
+*.pdf           binary
+*.docx          binary
+*.xlsx          binary
+*.pptx          binary
+
+# Executables & libraries
+*.exe           binary
+*.dll           binary
+*.so            binary
+*.dylib         binary
+*.wasm          binary
