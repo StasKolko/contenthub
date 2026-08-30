@@ -1,5 +1,7 @@
 # ROOT DIRS
 /.qodo/
+/.vscode/*
+!/.vscode/settings.json
 
 # DIRS
 **/.tanstack/
