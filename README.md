@@ -16,3 +16,14 @@ The [`docs/workflows`](./docs/workflows) directory contains documented developme
 
 - [Git Workflow](./docs/workflows/git-workflow.md) — branch, commit, Pull Request, review, and merge conventions.
 - [GitHub Repository Settings](./docs/workflows/github-repository-settings.md) — required Pull Request and merge settings for the repository.
+
+---
+
+## Quickstart
+
+```bash
+# Install dependencies
+bun i
+# Enable the Husky hooks
+chmod +x .husky/commit-msg .husky/pre-commit .husky/pre-push
+```
