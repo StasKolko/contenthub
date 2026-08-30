@@ -1,0 +1,17 @@
+# ROOT DIRS
+/.qodo/
+/.vscode/*
+!/.vscode/settings.json
+
+# DIRS
+**/.tanstack/
+**/.turbo/
+**/coverage/
+**/dist/
+**/node_modules/
+
+# FILES
+**/.env*
+!**/.env.development
+!**/.env.example
+!**/.env.*.example

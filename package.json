@@ -1,0 +1,22 @@
+{
+  "name": "contenthub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "configs/*",
+      "contracts/*",
+      "packages/*",
+      "scripts/*"
+    ]
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "husky": "^9.1.7"
+  },
+  "packageManager": "bun@1.4.0"
+}
