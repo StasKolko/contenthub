@@ -1,0 +1,69 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.11/schema.json",
+  "javascript": {
+    "experimentalEmbeddedSnippetsEnabled": true,
+    "resolver": { "experimentalPnpmCatalogs": false },
+    "jsxRuntime": "transparent",
+    "assist": { "enabled": true },
+    "linter": { "enabled": true },
+
+    "globals": [
+      // Runtime
+      "Bun",
+
+      // Vitest
+      "afterAll",
+      "afterEach",
+      "beforeAll",
+      "beforeEach",
+      "describe",
+      "expect",
+      "it",
+      "vi"
+    ],
+
+    "parser": {
+      "gritMetavariables": false,
+      "jsxEverywhere": false,
+      "unsafeParameterDecoratorsEnabled": true
+    },
+
+    "formatter": {
+      "enabled": true,
+
+      /*
+       * These formatter settings are already defined in Biome's root
+       * formatter configuration, so duplicating them here is unnecessary.
+       * Uncomment them only if JavaScript needs different formatting rules.
+
+      // Indentation settings
+      "indentStyle": "space",
+      "indentWidth": 2,
+
+      // Line settings
+      "lineEnding": "lf",
+      "lineWidth": 80,
+      "trailingNewline": true,
+
+      // Attribute and bracket settings
+      "attributePosition": "auto",
+      "bracketSameLine": false,
+      "bracketSpacing": true,
+
+      // Expansion and spacing settings
+      "expand": "auto",
+      "delimiterSpacing": false
+
+      */
+
+      // JavaScript-specific settings
+      "quoteStyle": "double",
+      "arrowParentheses": "always",
+      "jsxQuoteStyle": "double",
+      "operatorLinebreak": "before",
+      "quoteProperties": "asNeeded",
+      "semicolons": "always",
+      "trailingCommas": "all"
+    }
+  }
+}
