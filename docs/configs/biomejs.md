@@ -125,3 +125,7 @@ Before updating Biome:
 6. Update the lockfile only after the new version has been validated.
 
 A Biome update should be treated as a repository-wide change, not as a routine dependency update.
+
+---
+
+[↑ Back to top](#biome-configuration)
