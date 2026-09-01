@@ -1,0 +1,30 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.11/schema.json",
+  "formatter": {
+    "enabled": true,
+
+    // Format files that contain syntax errors
+    "formatWithErrors": true,
+
+    // Indentation settings
+    "indentStyle": "space",
+    "indentWidth": 2,
+
+    // Line settings
+    "lineEnding": "lf",
+    "lineWidth": 80,
+    "trailingNewline": true,
+
+    // Attribute and bracket settings
+    "attributePosition": "auto",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+
+    // Expansion and spacing settings
+    "expand": "auto",
+    "delimiterSpacing": false,
+
+    // EditorConfig settings
+    "useEditorconfig": false
+  }
+}
