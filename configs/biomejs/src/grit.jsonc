@@ -3,8 +3,8 @@
   "grit": {
     "assist": { "enabled": false },
     "linter": { "enabled": false },
-    "formatter": { 
-      "enabled": false, 
+    "formatter": {
+      "enabled": false
 
       /* 
         * Optional formatter overrides for Grit.

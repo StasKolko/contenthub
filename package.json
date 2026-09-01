@@ -2,11 +2,6 @@
   "name": "contenthub",
   "private": true,
   "type": "module",
-  "scripts": {
-    "check:biome:fix": "biome check --write",
-    
-    "prepare": "husky"
-  },
   "workspaces": {
     "packages": [
       "apps/*",
@@ -15,6 +10,11 @@
       "packages/*",
       "scripts/*"
     ]
+  },
+  "scripts": {
+    "check:biome:fix": "biome check --write",
+
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.11",
