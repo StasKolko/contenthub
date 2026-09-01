@@ -15,6 +15,7 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
     - [GitHub Repository Settings](./docs/workflows/github-repository-settings.md)
   - [Configuration](#configuration)
     - [Biome Configuration](./docs/configs/biomejs.md)
+    - [TypeScript Configuration](./docs/configs/typescript.md)
 - [Quickstart](#quickstart)
 
 ---
@@ -53,6 +54,7 @@ The [`docs/workflows`](./docs/workflows) directory contains documented developme
 The [`docs/configs`](./docs/configs) directory contains documentation for shared repository configuration.
 
 - [Biome Configuration](./docs/configs/biomejs.md) — formatting, linting, configuration structure, usage, and upgrade policy.
+- [TypeScript Configuration](./docs/configs/typescript.md) — shared compiler configurations for base, backend, frontend, and Vite workspaces.
 
 ---
 
