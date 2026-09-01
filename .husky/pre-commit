@@ -1,3 +1,2 @@
-bun run check:biome:fix
-echo "[TODO] typecheck is not configured yet"
+bun run check
 echo "[TODO] tests are not configured yet"
