@@ -12,7 +12,10 @@
     ]
   },
   "scripts": {
+    "check": "turbo run check",
     "check:biome:fix": "biome check --write",
+    "check:type": "turbo run check:type",
+    
     "prepare": "husky"
   },
   "devDependencies": {
