@@ -6,6 +6,36 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
 
 ---
 
+## Navigation
+
+- [Project Structure](#project-structure)
+- [Documentation](#documentation)
+  - [Workflows](#workflows)
+    - [Git Workflow](./docs/workflows/git-workflow.md)
+    - [GitHub Repository Settings](./docs/workflows/github-repository-settings.md)
+  - [Configuration](#configuration)
+    - [Biome Configuration](./docs/configs/biomejs.md)
+- [Quickstart](#quickstart)
+
+---
+
+## Project Structure
+
+Content Hub is organized as a monorepo:
+
+```text
+apps/       Applications and user-facing services
+configs/    Shared configuration packages
+contracts/  Shared API and data contracts
+docs/       Project documentation
+packages/   Reusable application packages
+scripts/    Development and repository scripts
+```
+
+The repository uses `Bun` workspaces to manage applications, packages, configurations, contracts, and scripts from a single root.
+
+---
+
 ## Documentation
 
 The [`docs`](./docs) directory contains project documentation. It is the single place for team conventions, development processes, architecture notes, and other guidelines needed to work consistently on Content Hub.
@@ -17,6 +47,13 @@ The [`docs/workflows`](./docs/workflows) directory contains documented developme
 - [Git Workflow](./docs/workflows/git-workflow.md) — branch, commit, Pull Request, review, and merge conventions.
 - [GitHub Repository Settings](./docs/workflows/github-repository-settings.md) — required Pull Request and merge settings for the repository.
 
+
+### Configuration
+
+The [`docs/configs`](./docs/configs) directory contains documentation for shared repository configuration.
+
+- [Biome Configuration](./docs/configs/biomejs.md) — formatting, linting, configuration structure, usage, and upgrade policy.
+
 ---
 
 ## Quickstart
@@ -27,3 +64,7 @@ bun i
 # Enable the Husky hooks
 chmod +x .husky/commit-msg .husky/pre-commit .husky/pre-push
 ```
+
+---
+
+[↑ Back to top](#content-hub)

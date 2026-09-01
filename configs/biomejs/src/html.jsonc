@@ -1,0 +1,39 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.11/schema.json",
+  "html": {
+    "experimentalFullSupportEnabled": true,
+    "parser": { "interpolation": false, "vue": false },
+    "assist": { "enabled": true },
+    "linter": { "enabled": true },
+    "formatter": {
+      "enabled": true,
+
+      /*
+        * These formatter settings are already defined in Biome's root
+        * formatter configuration, so duplicating them here is unnecessary.
+        * Uncomment them only if HTML needs different formatting rules.
+
+      // Indentation settings
+      "indentStyle": "space",
+      "indentWidth": 2,
+
+      // Line settings
+      "lineEnding": "lf",
+      "lineWidth": 80,
+      "trailingNewline": true,
+
+      // Attribute and bracket settings
+      "attributePosition": "auto",
+      "bracketSameLine": false
+
+      */
+
+      // HTML-specific settings
+      "selfCloseVoidElements": "always",
+      "whitespaceSensitivity": "css",
+
+      // Domain: Vue and Svelte
+      "indentScriptAndStyle": false
+    }
+  }
+}
