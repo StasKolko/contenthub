@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "check:biome:fix": "biome check --write",
+    
     "prepare": "husky"
   },
   "workspaces": {
