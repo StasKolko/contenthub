@@ -1,0 +1,15 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "ui": "stream",
+  "tasks": {
+    "check": {
+      "dependsOn": ["//#check:biome:fix", "check:type"]
+    },
+    "//#check:biome:fix": {
+      "cache": false
+    },
+    "check:type": {
+      "dependsOn": ["^check:type"]
+    }
+  }
+}
