@@ -7,10 +7,10 @@
       "enabled": false,
 
       /*
-       * Optional formatter overrides for GraphQL.
-       * These settings are already defined in Biome's root formatter
-       * configuration, so duplicating them here is unnecessary.
-       * Uncomment them only if GraphQL needs different formatting rules.
+        * Optional formatter overrides for GraphQL.
+        * These settings are already defined in Biome's root formatter
+        * configuration, so duplicating them here is unnecessary.
+        * Uncomment them only if GraphQL needs different formatting rules.
 
       // Indentation settings
       "indentStyle": "space",
