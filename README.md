@@ -18,6 +18,8 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
     - [TypeScript Configuration](./docs/configs/typescript.md)
     - [Vitest Configuration](./docs/configs/vitest.md)
   - [Packages](#packages)
+    - [Scripts Utilities](#scripts-utilities)
+      - [Project Root](./docs/packages/scripts-utils/project-root.md)
     - [Shared Utilities](#shared-utilities)
       - [Errors](./docs/packages/shared-utils/errors.md)
       - [Type Guards](./docs/packages/shared-utils/type-guards.md)
@@ -65,6 +67,14 @@ The [`docs/configs`](./docs/configs) directory contains documentation for shared
 ### Packages
 
 The docs/packages directory contains compact API references for reusable packages.
+
+#### Scripts Utilities
+
+The [packages/scripts-utils](./packages/scripts-utils) package contains
+reusable utilities for development and repository scripts.
+
+- [Project Root](./docs/packages/scripts-utils/project-root.md) — finding the
+  repository root directory.
 
 #### Shared Utilities
 
