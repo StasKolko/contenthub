@@ -19,6 +19,7 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
     - [Vitest Configuration](./docs/configs/vitest.md)
   - [Packages](#packages)
     - [Shared Utilities](#shared-utilities)
+      - [Errors](./docs/packages/shared-utils/errors.md)
       - [Type Guards](./docs/packages/shared-utils/type-guards.md)
 - [Quickstart](#quickstart)
 
@@ -69,6 +70,8 @@ The docs/packages directory contains compact API references for reusable package
 
 The [packages/shared-utils](./packages/shared-utils) package contains reusable utility functions shared across the repository.
 
+- [Errors](./docs/packages/shared-utils/errors.md) — shared application
+  errors, error causes, and structured error context.
 - [Type Guards](./docs/packages/shared-utils/type-guards.md) — available runtime predicates and their TypeScript signatures.
 
 ---
