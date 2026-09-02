@@ -31,6 +31,15 @@
         "vitest": "catalog:test",
       },
     },
+    "packages/shared-utils": {
+      "name": "@packages/shared-utils",
+      "devDependencies": {
+        "@configs/typescript": "workspace:*",
+        "@configs/vitest": "workspace:*",
+        "@vitest/coverage-v8": "catalog:test",
+        "vitest": "catalog:test",
+      },
+    },
   },
   "catalogs": {
     "frontend-dev": {
@@ -131,6 +140,8 @@
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
 
     "@oxc-project/types": ["@oxc-project/types@0.147.0", "", {}, "sha512-IJ3s6ltHLp45S0bh7phkX+gJO7A1Wuz2EaqpAhb8WjqDwbzMiWKHhyyT42tskaWjEYXtHtVCPpnBJVT9+dcRLg=="],
+
+    "@packages/shared-utils": ["@packages/shared-utils@workspace:packages/shared-utils"],
 
     "@rolldown/binding-android-arm-eabi": ["@rolldown/binding-android-arm-eabi@1.2.6", "", { "os": "android", "cpu": "arm" }, "sha512-b+jTcARdTiFLI6jB4a5XjTm0RWd6KcRfQj/I2356fxUZemiho9zQLxo0RtCuMDAyKcLo6cEltkgbQp6d1+sjjQ=="],
 
