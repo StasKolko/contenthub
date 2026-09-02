@@ -16,6 +16,10 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
   - [Configuration](#configuration)
     - [Biome Configuration](./docs/configs/biomejs.md)
     - [TypeScript Configuration](./docs/configs/typescript.md)
+    - [Vitest Configuration](./docs/configs/vitest.md)
+  - [Packages](#packages)
+    - [Shared Utilities](#shared-utilities)
+      - [Type Guards](./docs/packages/shared-utils/type-guards.md)
 - [Quickstart](#quickstart)
 
 ---
@@ -55,6 +59,17 @@ The [`docs/configs`](./docs/configs) directory contains documentation for shared
 
 - [Biome Configuration](./docs/configs/biomejs.md) — formatting, linting, configuration structure, usage, and upgrade policy.
 - [TypeScript Configuration](./docs/configs/typescript.md) — shared compiler configurations for base, backend, frontend, and Vite workspaces.
+- [Vitest Configuration](./docs/configs/vitest.md) — shared test environments, configuration overrides, and strict coverage rules.
+
+### Packages
+
+The docs/packages directory contains compact API references for reusable packages.
+
+#### Shared Utilities
+
+The [packages/shared-utils](./packages/shared-utils) package contains reusable utility functions shared across the repository.
+
+- [Type Guards](./docs/packages/shared-utils/type-guards.md) — available runtime predicates and their TypeScript signatures.
 
 ---
 
