@@ -10,6 +10,19 @@
     },
     "check:type": {
       "dependsOn": ["^check:type"]
+    },
+
+    "test": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:run": {
+      "inputs": ["src/**/*.{ts,tsx}", "vitest.config.ts", "test-setup.*"],
+      "outputs": []
+    },
+    "test:coverage": {
+      "inputs": ["src/**/*.{ts,tsx}", "vitest.config.ts", "test-setup.*"],
+      "outputs": ["coverage/**"]
     }
   }
 }
