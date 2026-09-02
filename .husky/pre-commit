@@ -1,2 +1,2 @@
 bun run check
-echo "[TODO] tests are not configured yet"
+bun run test:coverage

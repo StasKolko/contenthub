@@ -27,6 +27,9 @@ const baseTestConfig: ViteUserConfig["test"] = {
       lines: 100,
     },
     exclude: [
+      "**/_test/**/!(*.test).{ts,tsx}",
+      "**/_tests/**/!(*.test).{ts,tsx}",
+
       // Tests
       "**/*.test.{ts,tsx}",
 
