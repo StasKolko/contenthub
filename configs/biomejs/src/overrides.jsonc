@@ -12,6 +12,26 @@
           "style": { "noDefaultExport": "off" }
         }
       }
+    },
+    {
+      "includes": ["**/*.test.ts", "**/*.test.tsx", "**/_tests/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noMagicNumbers": "off",
+            "useConsistentBuiltinInstantiation": "off",
+            "noExcessiveLinesPerFile": "off"
+          },
+          "complexity": {
+            "noExcessiveLinesPerFunction": "off"
+          },
+          "suspicious": {
+            "noEmptyBlockStatements": "off",
+            "useAwait": "off",
+            "noThenProperty": "off"
+          }
+        }
+      }
     }
   ]
 }
