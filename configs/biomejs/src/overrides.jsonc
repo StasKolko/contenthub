@@ -32,6 +32,16 @@
           }
         }
       }
+    },
+    {
+      "includes": ["packages/scripts-utils/src/**"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noNodejsModules": "off"
+          }
+        }
+      }
     }
   ]
 }
