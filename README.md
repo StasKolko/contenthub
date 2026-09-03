@@ -25,6 +25,8 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
     - [Shared Utilities](#shared-utilities)
       - [Errors](./docs/packages/shared-utils/errors.md)
       - [Type Guards](./docs/packages/shared-utils/type-guards.md)
+  - [Scripts](#scripts)
+    - [Cache Cleaner](./docs/scripts/cache-cleaner.md)
 - [Quickstart](#quickstart)
 
 ---
@@ -93,6 +95,14 @@ The [packages/shared-utils](./packages/shared-utils) package contains reusable u
 - [Errors](./docs/packages/shared-utils/errors.md) — shared application
   errors, error causes, and structured error context.
 - [Type Guards](./docs/packages/shared-utils/type-guards.md) — available runtime predicates and their TypeScript signatures.
+
+### Scripts
+
+The [`scripts`](./scripts) directory contains development and repository
+maintenance scripts.
+
+- [Cache Cleaner](./docs/scripts/cache-cleaner.md) — removes configured cache
+  directories from the repository.
 
 ---
 
