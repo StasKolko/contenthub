@@ -31,6 +31,20 @@
         "vitest": "catalog:test",
       },
     },
+    "packages/frontend-utils": {
+      "name": "@packages/frontend-utils",
+      "dependencies": {
+        "@packages/shared-utils": "workspace:*",
+        "tailwind-merge": "3.6.0",
+      },
+      "devDependencies": {
+        "@configs/typescript": "workspace:*",
+        "@configs/vitest": "workspace:*",
+        "@vitest/coverage-v8": "catalog:test",
+        "vite": "catalog:frontend-dev",
+        "vitest": "catalog:test",
+      },
+    },
     "packages/scripts-utils": {
       "name": "@packages/scripts-utils",
       "dependencies": {
@@ -152,6 +166,8 @@
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
 
     "@oxc-project/types": ["@oxc-project/types@0.147.0", "", {}, "sha512-IJ3s6ltHLp45S0bh7phkX+gJO7A1Wuz2EaqpAhb8WjqDwbzMiWKHhyyT42tskaWjEYXtHtVCPpnBJVT9+dcRLg=="],
+
+    "@packages/frontend-utils": ["@packages/frontend-utils@workspace:packages/frontend-utils"],
 
     "@packages/scripts-utils": ["@packages/scripts-utils@workspace:packages/scripts-utils"],
 
@@ -424,6 +440,8 @@
     "std-env": ["std-env@4.2.0", "", {}, "sha512-oCUKSupKTHX53EyjDtuZQ64pjLJ6yYCtpmEw0goYxtjG9KpbRe8KAsl2tBUGU9DyMcJ0RwJ8GqJAFzMXcXW1Rw=="],
 
     "supports-color": ["supports-color@7.2.0", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="],
+
+    "tailwind-merge": ["tailwind-merge@3.6.0", "", {}, "sha512-uxL7qAVQriqRQPAyK3pj66VqskWqoZ37PW94jwOTwNfq/z9oyu1V+eqrZqtR2+fCiXdYOZe/Modt8GtvqNzu+w=="],
 
     "tinybench": ["tinybench@2.9.0", "", {}, "sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg=="],
 
