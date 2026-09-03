@@ -34,11 +34,14 @@
       }
     },
     {
-      "includes": ["packages/scripts-utils/src/**"],
+      "includes": ["packages/scripts-utils/src/**", "scripts/**"],
       "linter": {
         "rules": {
           "correctness": {
             "noNodejsModules": "off"
+          },
+          "suspicious": {
+            "noConsole": "off"
           }
         }
       }
