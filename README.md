@@ -18,6 +18,8 @@ Leave routine, chaos, and high AI service fees behind. Create more, manage with 
     - [TypeScript Configuration](./docs/configs/typescript.md)
     - [Vitest Configuration](./docs/configs/vitest.md)
   - [Packages](#packages)
+    - [Frontend Utilities](#frontend-utilities)
+      - [CSS](./docs/packages/frontend-utils/css.md)
     - [Scripts Utilities](#scripts-utilities)
       - [Project Root](./docs/packages/scripts-utils/project-root.md)
     - [Shared Utilities](#shared-utilities)
@@ -67,6 +69,14 @@ The [`docs/configs`](./docs/configs) directory contains documentation for shared
 ### Packages
 
 The docs/packages directory contains compact API references for reusable packages.
+
+#### Frontend Utilities
+
+The [packages/frontend-utils](./packages/frontend-utils) package contains
+small reusable utilities for frontend applications.
+
+- [CSS](./docs/packages/frontend-utils/css.md) — class name composition and
+  Tailwind class merging.
 
 #### Scripts Utilities
 
