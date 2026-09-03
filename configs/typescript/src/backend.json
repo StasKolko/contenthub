@@ -3,7 +3,7 @@
   "extends": "./base.json",
   "compilerOptions": {
     "module": "preserve",
-    "types": ["bun", "vitest/globals"],
+    "types": ["bun", "node", "vitest/globals"],
 
     "skipLibCheck": false
   }
